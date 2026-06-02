@@ -1,0 +1,41 @@
+### Iris 품종 예측 API 테스트
+
+# @name predict-setosa
+# Setosa 품종 예측 테스트
+POST http://localhost:8080/api/iris/predict
+Content-Type: application/json
+
+{
+  "sepalLength": 5.1,
+  "sepalWidth": 3.5,
+  "petalLength": 1.4,
+  "petalWidth": 0.2
+}
+
+###
+
+# @name predict-versicolor
+# Versicolor 품종 예측 테스트
+POST http://localhost:8080/api/iris/predict
+Content-Type: application/json
+
+{
+  "sepalLength": 6.0,
+  "sepalWidth": 2.2,
+  "petalLength": 4.0,
+  "petalWidth": 1.0
+}
+
+###
+
+# @name predict-virginica
+# Virginica 품종 예측 테스트
+POST http://localhost:8080/api/iris/predict
+Content-Type: application/json
+
+{
+  "sepalLength": 6.3,
+  "sepalWidth": 3.3,
+  "petalLength": 6.0,
+  "petalWidth": 2.5
+}

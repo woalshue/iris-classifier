@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: spring-ai-iris-practice
+
+iris:
+  model-path: model/iris-model.zip
